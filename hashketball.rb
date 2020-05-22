@@ -130,4 +130,5 @@ end
 def num_points_scored 
   answer = ""
   
-  game_hash.each do |
+  game_hash.each do |team, details_hash|
+    players_array = 
