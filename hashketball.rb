@@ -127,4 +127,7 @@ def game_hash
 end
 
 # Write code here
-def 
+def num_points_scored 
+  answer = ""
+  
+  game_hash.each do |
