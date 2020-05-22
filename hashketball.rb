@@ -169,12 +169,10 @@ end
 def player_stats(player_n)
   game_hash.each do |home_away, keys|
     keys[:players].each do |player|
-      
         return player if player[:player_name] == player_n
       end
     end
   end
-end
     
 def big_shoe_rebounds
   biggest = 0 
