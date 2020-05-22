@@ -126,13 +126,12 @@ def game_hash
   }
 end
 
+
+
 # Write code here
 def num_points_scored 
   answer = ""
   
-def num_points_scored (name)
-  answer = nil
-
   game_hash.each do |team, details_hash|
     players_array = details_hash[:players]
       players_array.each do |player_details_hash|
